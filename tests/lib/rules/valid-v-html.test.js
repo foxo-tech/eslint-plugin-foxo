@@ -52,6 +52,10 @@ tester.run('valid-v-html', rule, {
       filename: 'test.vue',
       code: '<template><div v-html="$shtml(2)"></div></template>'
     },
+    {
+      filename: 'test.vue',
+      code: '<template><div v-html="$shtml(null)"></div></template>'
+    },
   ],
   invalid: [
     {
