@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-foxo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "custom rules for foxo",
   "keywords": [
     "eslint",
@@ -19,15 +19,15 @@
   },
   "dependencies": {
     "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-eslint-plugin": "^5.0.0",
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-vue": "^9.19.2",
+    "eslint-plugin-node": "^11.1.0",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^8.19.0",
     "eslint-doc-generator": "^1.0.0",
-    "eslint-plugin-eslint-plugin": "^5.0.0",
-    "eslint-plugin-node": "^11.1.0",
     "mocha": "^10.0.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.8",
